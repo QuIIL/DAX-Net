@@ -1,7 +1,7 @@
 # DAX-Net
 
 ## About
-![image](https://hackmd.io/_uploads/Skvo63ijT.png)
+![overview](https://github.com/QuIIL/DAX-Net/assets/56221762/fc602bff-32df-49ac-b834-202bc01176ab)
 > Overview of DAX-Net. DAX-Net includes a feature extraction block, a feature fusion block, and a prediction block. The feature extraction block comprises two simultaneous CNN- and Transformer-based branches, generating two heterogeneous feature representations. During training, the feature fusion block fuses the two feature representations via summation and the prediction block uses them to separately conduct categorical classification and ordinal classification. DAX-Net is optimized using two loss functions that are tailored to the two classification tasks. At inference, the two feature representations are adaptively fused to focus more on the informative features.
 
 ## Datasets
@@ -16,7 +16,7 @@ There are five datasets for two organs (colon & prostate) used in this study:
     - [x] [PTest-II](https://gleason2019.grand-challenge.org/) (Independent test set)
     - [ ] PTest-III (comming soon).
 
-![image](https://hackmd.io/_uploads/S1JGVaoiT.png)
+![datasets](https://github.com/QuIIL/DAX-Net/assets/56221762/f9843aec-9612-4696-82f0-ad1660e04f89)
 > Dataset stastitics.
 
 For convinience, please prepare the downloaded datasets as below directory tree:
