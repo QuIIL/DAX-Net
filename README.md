@@ -14,12 +14,12 @@ There are five datasets for two organs (colon & prostate) used in this study:
 2. Prostate dataset:
     - [x] [PTrain, PValid & PTest-I](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OCYCMP)
     - [x] [PTest-II](https://gleason2019.grand-challenge.org/) (Independent test set)
-    - [ ] PTest-III (comming soon).
+    - [x] [PTest-III](https://aggc22.grand-challenge.org/) (Independent test set).
 
 ![datasets](https://github.com/QuIIL/DAX-Net/assets/56221762/f9843aec-9612-4696-82f0-ad1660e04f89)
 > Dataset stastitics.
 
-For convinience, please prepare the downloaded datasets as below directory tree:
+For convenience, please prepare the downloaded datasets as shown in the directory tree below:
 
 ```
 datasets
@@ -61,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python3.8 test_only.py --dataset=[DATASET NAME] \
 
 `DATASET NAME` has five options: `colon_tma_test_1`, `colon_tma_test_2`, `prostate_uhu`, `prostate_ubc` and `aggc2022`, for evaluating DAX-Net on CTest-I, CTest-II, PTest-I, PTest-II and PTest-III, respectively.
 
-For `[CHECKPOINT PATH]`, refers to the checkpoint links for corresponding organs: [Colon]() and [Prostate]().
+For `[CHECKPOINT PATH]`, refers to the checkpoint links for corresponding organs: [Colon](https://drive.google.com/file/d/1JQoAq-6JJN09t9_55TzMp8ri3_KMopJD/view?usp=sharing) and [Prostate](https://drive.google.com/file/d/1XjX5-kjUv_aYweV0UOf-H3DF7VK28lqD/view?usp=sharing).
 
 The results should be the same as those reported in Tables 2 and 3 in our paper.
 
