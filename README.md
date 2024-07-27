@@ -75,12 +75,15 @@ If any part of this code is used, please give appropriate citation to our paper.
 
 BibTex entry: <br />
 ```
-@article{bui2024daxnet,
-  title={DAX-Net: a dual-branch dual-task adaptive cross-weight feature fusion network for robust multi-class cancer classification in pathology images},
-  author={Bui, Doanh C. and Kim, Kyungeun and Song, Boram and Kwak, Jin Tae},
-  journal={},
-  pages={},
-  year={},
-  publisher={}
+@article{BUI2024108112,
+title = {DAX-Net: A dual-branch dual-task adaptive cross-weight feature fusion network for robust multi-class cancer classification in pathology images},
+journal = {Computer Methods and Programs in Biomedicine},
+volume = {248},
+pages = {108112},
+year = {2024},
+issn = {0169-2607},
+doi = {https://doi.org/10.1016/j.cmpb.2024.108112},
+url = {https://www.sciencedirect.com/science/article/pii/S0169260724001081},
+author = {Doanh C. Bui and Boram Song and Kyungeun Kim and Jin Tae Kwak},
 }
 ```
